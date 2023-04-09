@@ -39,7 +39,7 @@ public class GateAppearaence : MonoBehaviour
     }
 
     private void SetColor(Color color) {
-        _renderer.sharedMaterial.SetColor("_BaseColor", color);
+        _renderer.material.SetColor("_BaseColor", color);
 
     }
 
